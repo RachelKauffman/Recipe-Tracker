@@ -67,28 +67,20 @@ tbody tr:nth-child(odd) {
   height: 100%
 }
 /* Column Size for thead */
-thead col {
+th {
   width: 10%;
 }
-thead:nth-child(3) {
-  width:30%;
-}
-
-thead:nth-child(8) {
-  width:30%;
+th:nth-child(5), th:nth-child(6) {
+  width: 30%;
 }
 
 
 /* Column size for tbody */
 
-tbody col {
+tr td {
   width: 10%;
 }
 
-tbody:nth-child(3) {
-  width: 30%;
-}
-
-tbody:nth-child(8) {
+tr td:nth-child(5), tr td:nth-child(6) {
   width: 30%;
 }
